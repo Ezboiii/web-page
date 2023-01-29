@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+nav{
+    text-align: right;
+    background-color: #2A2F33;
+}
+.menu{
+    padding:20px
+}
+.menu a{
+    color: grey;
+    text-decoration: none;
+
+}
+.menu .links{
+    margin-right: 30px;
+    margin-left: 30px;
+    transition-property: color;
+    transition-duration:  0.3s;
+}
+.menu #brand{
+    font-style: italic;
+    float: left;
+}
+.menu .links:hover{
+    color:beige
+}
+
+.about{
+   margin-top: 20px;
+   width: 80%;
+   margin:auto;
+}
+.icons{
+    width: 180px;
+    float: left;
+}
+.footer{
+    background-color: #2A2F33;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px 0px 10px;}
+.footer footer{
+    text-align: center;
+    color: beige;
+    margin-top: 12px;
+}
